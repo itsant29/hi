@@ -2,8 +2,11 @@
   "name": "package.json",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://github.io/itsant29/single-page-portfolio",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "author": "antoinette hall",
   "license": "ISC",
@@ -13,11 +16,11 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itsant29/single-page-portfolio.git"
+    "url": "git+https://github.io/itsant29/single-page-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/itsant29/single-page-portfolio/issues"
+    "url": "https://github.io/itsant29/single-page-portfolio/issues"
   },
-  "homepage": "https://github.com/itsant29/single-page-portfolio#readme",
+ 
   "description": ""
 }

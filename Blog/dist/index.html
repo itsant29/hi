@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+        <title> Blog - Homepage </title>
+        <link rel = "stylesheet" type = "text/css" href = "main.css">
+    </head>
+    <body background = "../img/airplane.jpg">
+        
+        <header>
+                
+            <div class = "portfolio-hero">
+                    <h1> AROUND the WORLD</h1>
+                    <h4> all the places i've travelled </h4>
+                <div class = "portfolio-menu">
+                    <nav class="cl-effect-15">
+                    <ul class = "cl-effect-15">
+                        <li class = "menu-item"><a href = "#about"> About</a></li>
+                        <li class = "menu-item"> <a href = "#blog-posts">Countries </a></li>
+                        <li class = "menu-item"><a href = "#contact">Contact</a> </li>
+                    </ul>
+                    </nav>
+                    <div class = "portfolio-profile">
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id = "about">
+                <h2> About Me</h2>
+                <p> My name is Antoinette Hall. I am 18 years old. I was born in England but moved to the USA when
+                    I was 6. When I was 13, I moved to Taiwan where I attended high school. At 17, I graduated high
+                    school and came to AUP where I am a second year Information Technology major. I enjoy sports 
+                    I joined my high school varsity basketball team where I was captain for two years, and I ran track.
+                </p>
+                <hr>
+            </div>
+
+            <div id = "blog-posts">
+                <h2> COUNTRIES </h2>
+                <div class = "blog-main-grid" style = "align-content: center">
+                    <div class = "blog-1">
+                        <img src = "img/ThailandBP.jpg" alt = "boardingpass">
+                        <a href = "thailand.html"><h3> Thailand</h3></a>
+                    </div>
+                    
+                   <!-- <div class = "blog-2">
+                        <img alt = "india" src = " img/TajMahal.jpg">
+                        <a href = "india.html"><h3> India </h3></a>
+                    </div> -->
+                </div>
+                <hr>
+            </div>
+            <div id = "contact"></div>
+        </main>
+        <form class = "portfolio-form">
+                <h2> Contact Me </h2>
+                <div class = "form-row">
+                    <label class = "form-label"> Subject: </label>
+                    <div class = "form-input">
+                        <input id = "mailSubject" class = "form-input-text" type = "text" style = "background-color: #F6F4EB">
+                    </div>
+                </div>
+                <div class = "form-row">
+                    <label class = "form-label" style = "text-align: center;"> Message: </label>
+                    <div class = "form-input">
+                        <textarea id = "mailMessage" class = "form-input-textarea" type = "text" style = "background-color: #F6F4EB"></textarea>
+                    </div>
+                </div>
+                <div class = "form-submit">
+                    <a onmouseover = "appendMailTo()" id = "sendMail" href = "mailto: antoinettehall29@gmail.com" class = "btn-submit"> Submit</a>
+
+                </div>
+            </form>
+
+        <footer>
+            
+            <div class = "footer">
+                Copyright &copy; <span id = "getYear"></span>
+            </div>
+        </footer>
+        <script src = "js/main.js"></script>
+    </body>
+   
+
+</body>
+</html>
+    

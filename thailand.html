@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie = edge">
+        <title> Blog - Content </title>
+        <link rel = "stylesheet" type = "text/css" href = "thai.css">
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <div id = "blog-posts">
+            <h2> THAILAND </h2>
+            <h6> Antoinette Hall </h6>
+            
+            
+            <div class = "blog-main-grid" style = "align-content: center">
+                <div class = "blog-1">
+                    <h5> April 2017 </h5>
+                    <p>
+                        My junior year in high school I had the opportunity to join a mission trip to Ubon Ratchathani, Thailand.
+                        A group of 20 students and 4 teachers went to Ubon Adventist International Mission School to help
+                        them build a cafeteria. For 10 days, we laid concrete and held a Vacation Bible School for the 
+                        children in the nearby village. Some of the students were also teachers' assistants because some 
+                        of the foreign teachers were on a visa run. It was a very enjoyable experience. 
+                    </p>
+                </div>
+                
+                <div class = "blog-2">
+                    <h5> April 2018 </h5>
+                    <p>
+                        Senior year we went back to the same school in Thailand and helped them prepare for the opening
+                        of their new school building. We painted the walls and a mural near the playground. Again we had 
+                        Vacation Bible School but this time we did it with the children in the school. Besides working,
+                        we went on a boat ride down the border of Thailand and Laos. 
+                    </p>
+                </div>
+                
+            </div>
+            <div></div>
+            <hr>
+            <div class = "pictures">
+                <img src = "img/coconut.jpg">
+                <img src = "img/food.JPG">
+                <img src = "img/jump.JPG">
+                <img src = "img/mural.JPG">
+                <img src = "img/uaims.jpg">
+                <img src = "img/vbs.jpg">
+            </div>
+            <hr>
+        </div>
+            
+        <form class = "portfolio-form">
+            <h2> Message Me </h2>
+            <div class = "form-row">
+                <label class = "form-label"> Subject: </label>
+                <div class = "form-input">
+                    <input id = "mailSubject" class = "form-input-text" type = "text" style = "background-color: #F6F4EB">
+                </div>
+            </div>
+            <div class = "form-row">
+                <label class = "form-label" style = "text-align: center;"> Message: </label>
+                <div class = "form-input">
+                    <textarea id = "mailMessage" class = "form-input-textarea" type = "text" style = "background-color: #F6F4EB"></textarea>
+                </div>
+            </div>
+            <div class = "form-submit">
+                <a onmouseover = "appendMailTo()" id = "sendMail" href = "mailto: antoinettehall29@gmail.com" class = "btn-submit"> Submit</a>
+
+            </div>
+        </form>
+    
+        
+        <footer>
+            <div class = "footer">
+                Copyright &copy; <span id = "getYear"></span>
+            </div>
+        </footer>
+    </body>
+    </html>
